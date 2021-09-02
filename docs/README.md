@@ -8,7 +8,7 @@
 
 ## O que isto faz?
 
-Este componente cria uma comunicação com a API da Vtex usa o número do pedido para recuperar o e-mail usado na compra, manda esse e-mail para API GATEWAY da AWS e esse e-mail é conferido se é de um cliente já cadastrado como lead e se for cria uma novo atributo posicionando o dia que ele virou cliente de fato.
+Este componente cria uma comunicação com a API da Vtex, usa o número do pedido para recuperar o e-mail usado na compra e manda esse e-mail para API GATEWAY da AWS. Esse e-mail é conferido se é de um cliente já cadastrado como lead e se for cria uma novo atributo posicionando o dia que ele virou cliente de fato no banco de dados DynamoDB.
 
 ## Dependências
 
